@@ -46,12 +46,6 @@
   height: 100%;
 }
 
-/*не было до этого*/
-.header__logo-image {
-  display: block;
-  width: 100%;
-}
-
 .address {
   display: flex;
   flex-direction: column;
