@@ -1,6 +1,6 @@
 .header {
   display: grid;
-  grid-template-columns: 429px 148px 391px; 
+  grid-template-columns: 429px 148px 391px;
   grid-template-rows: 105px; /*высота строки*/
   margin: 92px 83px 96px 50px;
   padding: 0;
@@ -52,7 +52,7 @@
 }
 
 .header__address {
-  justify-self: end; 
+  justify-self: end;
 }
 
 .address-list {
