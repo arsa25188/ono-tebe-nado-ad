@@ -1,7 +1,7 @@
 .header {
   display: grid;
-  grid-template-columns: 430px 148px 391px;
-  grid-template-rows: 105px;
+  grid-template-columns: 429px 148px 391px; 
+  grid-template-rows: 105px; /*высота строки*/
   margin: 92px 83px 96px 50px;
   padding: 0;
 }
@@ -18,12 +18,12 @@
 .header__links-list {
   display: flex;
   align-items: center;
-  width: 100%;
-  gap: 32px;
+  width: 100%; /*список на всю ширину родителя .header__menu*/
+  gap: 32px; /*отступы между элементами*/
   list-style-type: circle;
 }
 
-.header__links-list-item_no-bullit {
+.header__links-list-item_no-bullet {
   list-style: none;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .header__link_active {
-  border-bottom: none;
+  border-bottom: none; /*подчеркивание*/
 }
 
 .header__logo-image {
@@ -48,11 +48,11 @@
 
 .address {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /*сверху вниз*/
 }
 
 .header__address {
-  justify-self: end;
+  justify-self: end; 
 }
 
 .address-list {
@@ -72,11 +72,6 @@
   text-decoration: none;
 }
 
-.address-list-item {
-  border: none;
-  
-}
-
 .cover {
   position: relative;
   z-index: 0;
@@ -86,12 +81,12 @@
   background-image: url(../images/cover.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; /*фон покрывает полностью весь блок*/
 }
 
 .overlay {
   position: absolute;
-  inset: 0;
+  inset: 0; /*границы совпадают с родителями*/
   z-index: -1;
   width: 100%;
   height: 100%;
@@ -114,11 +109,7 @@
   text-transform: uppercase;
 }
 
-.no-letter-spacing {
-  letter-spacing: 0;
-}
-
-.aligned-text {
+.aligned-text_left {
   text-align: left;
 }
 
